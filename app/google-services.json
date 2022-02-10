@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "108348517063",
+    "project_id": "dating-app-12a7f",
+    "storage_bucket": "dating-app-12a7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108348517063:android:a9e5e09c829e0d9a14ace2",
+        "android_client_info": {
+          "package_name": "com.znakomstvaonlain.prilojeniedlyaznakomstvonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108348517063-a2n4i2jhdrvqncmvli020vqn0oukv6vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.znakomstvaonlain.prilojeniedlyaznakomstvonline",
+            "certificate_hash": "3ec7c99aee8a00d7cf1641ec7d5d69779d962a7c"
+          }
+        },
+        {
+          "client_id": "108348517063-ajoehhu4p5e796um3beki5qtue798cgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFty3TITBhaoQ75YTkSKNSS5OU2P1tR6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108348517063-ajoehhu4p5e796um3beki5qtue798cgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

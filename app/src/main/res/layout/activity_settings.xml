@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.SettingsActivity"
+    android:padding="20sp"
+    android:background="@drawable/background_app">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Settings"
+            android:textColor="@color/black"
+            android:textSize="36dp"
+            android:layout_margin="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/imageFon"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/profileImage"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_horizontal"/>
+        </RelativeLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/name"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:id="@+id/phone"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_app"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:text="@string/Confirm"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginVertical="10dp"/>
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_app"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">PrilojenieDlyaZnakomstvOnline</string>
+    <!--  -->
+
+    <string name="enterEmailText">Enter Email.</string><!-- Введите Email. -->
+    <string name="enterRasswordText">Enter password.</string><!-- Введите пароль. -->
+
+    <string name="loginText">Login</string><!-- Авторизоваться -->
+    <string name="pleaseWaitText">Please wait...</string><!-- Пожалуйста подождите... -->
+
+
+    <string name="registerBTN">Registration</string><!-- Регистрация -->
+    <string name="signInBTN">Sign in</string><!-- Войти -->
+    <string name="profile_photo">Your profile photo</string><!-- Ваше фото профиля -->
+
+    <string name="signInTitle">Sign in</string><!-- Войти -->
+
+
+    <string name="SignOut">Sign Out</string><!-- Выйти -->
+    <string name="Mathes">Matches</string><!-- Совпадения -->
+    <string name="Settings">Settings</string><!-- Настройки -->
+
+    <string name="Confirm">Confirm</string><!-- Подтверить -->
+    <string name="Back">Back</string><!-- Назад -->
+
+    <string name="your_connections">Your connections</string><!-- Ваши связи -->
+    <string name="new_connections">New connections</string><!-- Новые связи -->
+    <string name="dont_connections">You don\'t have connections</string><!-- У вас нет связей -->
+
+
+    <string name="message">message...</string><!-- сообщение -->
+
+
+    <string name="email">email</string><!-- сообщение -->
+    <string name="pass">password</string><!-- пароль -->
+    <string name="name">name</string><!-- Имя -->
+    <string name="Male">Male</string><!-- Имя -->
+    <string name="Female">Female</string><!-- Имя -->
+
+
+
+
+    <string name="checkbox_remember_me">Remember me</string><!-- Запомнить меня -->
+    <string name="forget_pass">Forgot your password?</string><!-- Забыли свой пароль? -->
+
+    <string name="sign_in_ERROR">Username or password is incorrect!</string><!-- Логин или пароль неверны! -->
+    <string name="sign_in_True">Successful login!</string><!-- Успешный вход в систему! -->
+    <string name="sign_up_ERROR">Sign up ERROR</string><!-- ОШИБКА входа -->
+    <string name="like">Like</string><!-- Нравится -->
+    <string name="not_like">I do not like</string><!-- Мне не нравится -->
+
+
+    <string name="clickAgainToExit">Click again to exit!</string><!-- Нажмите еще раз, чтобы выйти! -->
+</resources>
