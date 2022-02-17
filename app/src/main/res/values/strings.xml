@@ -13,7 +13,24 @@
     <string name="signInBTN">Sign in</string><!-- Войти -->
     <string name="profile_photo">Your profile photo</string><!-- Ваше фото профиля -->
 
+    <string name="Enter_your_name">Enter your name.</string><!-- Введите свое имя. -->
+    <string name="password_cannot_empty">The password cannot be empty.</string><!-- Пароль не может быть пустым. -->
+    <string name="enter_valid_email">Please enter a valid email.</string><!-- Введите правильный email. -->
+    <string name="your_gender">Choose your gender.</string><!-- Выберите свой гендер. -->
+    <string name="Create_account">Create an account</string><!-- Создание аккаунта -->
+    <string name="Please_wait">Please wait...</string><!-- Пожалуйста подождите... -->
+    <string name="erorr_pass1">The password must contain lowercase Latin characters.</string><!-- В пароле должны содеражаться латиницу нижнего регистра. -->
+    <string name="erorr_pass2">The password must contain uppercase Latin characters.</string><!-- В пароле должны содеражаться латиницу верхнего регистра. -->
+    <string name="erorr_pass3">The password must contain numbers.</string><!-- В пароле должны содеражаться цифры. -->
+    <string name="erorr_pass4">The password must contain more than 6 characters.</string><!-- В пароле должно содержаться более 6 символов. -->
+    <string name="erorr_pass5">The password must contain less than 20 characters.</string><!-- В пароле должно содержаться менее 20 символов. -->
+    <string name="check_email">Please check your email account...</string><!-- Пожалуйста проверьте свой Email аккаунт... -->
+
+
     <string name="signInTitle">Sign in</string><!-- Войти -->
+
+    <string name="Password_recovery">Password recovery</string><!-- Востановление пароля -->
+    <string name="Restore">Restore</string><!-- Востановить -->
 
 
     <string name="SignOut">Sign Out</string><!-- Выйти -->
@@ -22,6 +39,8 @@
 
     <string name="Confirm">Confirm</string><!-- Подтверить -->
     <string name="Back">Back</string><!-- Назад -->
+
+    <string name="save">Save...</string><!-- Сохранение... -->
 
     <string name="your_connections">Your connections</string><!-- Ваши связи -->
     <string name="new_connections">New connections</string><!-- Новые связи -->
@@ -34,10 +53,10 @@
     <string name="email">email</string><!-- сообщение -->
     <string name="pass">password</string><!-- пароль -->
     <string name="name">name</string><!-- Имя -->
+    <string name="name1">Name:</string><!-- Имя -->
+    <string name="gender">Gender:</string><!-- Gender -->
     <string name="Male">Male</string><!-- Имя -->
     <string name="Female">Female</string><!-- Имя -->
-
-
 
 
     <string name="checkbox_remember_me">Remember me</string><!-- Запомнить меня -->
@@ -46,6 +65,7 @@
     <string name="sign_in_ERROR">Username or password is incorrect!</string><!-- Логин или пароль неверны! -->
     <string name="sign_in_True">Successful login!</string><!-- Успешный вход в систему! -->
     <string name="sign_up_ERROR">Sign up ERROR</string><!-- ОШИБКА входа -->
+
     <string name="like">Like</string><!-- Нравится -->
     <string name="not_like">I do not like</string><!-- Мне не нравится -->
 

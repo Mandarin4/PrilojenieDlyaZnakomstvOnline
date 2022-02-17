@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.znakomstvaonlain.prilojeniedlyaznakomstvonline"
         minSdk 21
-        targetSdk 32
+        targetSdk 30
         versionCode 1
         versionName "1.0"
 
@@ -52,5 +52,6 @@ dependencies {
     implementation 'io.paperdb:paperdb:2.7.1'
 
     implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
 }

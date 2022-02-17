@@ -39,15 +39,16 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatViewHolders> {
 
     @Override
     public void onBindViewHolder(@NonNull ChatViewHolders holder, int position) {
-        holder.message.setText(chatList.get(position).getMessage());
         if (chatList.get(position).getCurrentUser()){
-            holder.message.setGravity(Gravity.END);
-            holder.message.setTextColor(Color.parseColor("#404040"));
-            holder.container.setBackgroundColor(Color.parseColor("#F4F4F4"));
+            holder.container_my.setVisibility(View.VISIBLE);
+            holder.container_oppo.setVisibility(View.GONE);
+            holder.message_my.setText(chatList.get(position).getMessage());
+            holder.date_my.setText(chatList.get(position).getDate());
         }else {
-            holder.message.setGravity(Gravity.START);
-            holder.message.setTextColor(Color.parseColor("#FFFFFF"));
-            holder.container.setBackgroundColor(Color.parseColor("#2DB4C8"));
+            holder.container_my.setVisibility(View.GONE);
+            holder.container_oppo.setVisibility(View.VISIBLE);
+            holder.message_oppo.setText(chatList.get(position).getMessage());
+            holder.date_oppo.setText(chatList.get(position).getDate());
         }
     }
 

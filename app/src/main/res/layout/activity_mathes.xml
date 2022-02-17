@@ -10,7 +10,8 @@
         android:id="@+id/linerTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
 
         <ImageView
             android:id="@+id/imageBTNBack"
@@ -28,7 +29,7 @@
             android:text="@string/your_connections"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
         <ImageView
             android:layout_weight="0.1"
             android:layout_width="50dp"

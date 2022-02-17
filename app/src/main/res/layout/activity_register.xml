@@ -18,19 +18,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/imageProfil"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:src="@drawable/default_male"
-                android:background="@color/white"/>
+                app:civ_circle_background_color="@color/white"
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/profile_photo"
                 android:layout_gravity="center_vertical"
                 android:textSize="20sp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:layout_margin="10dp"/>
         </LinearLayout>
@@ -40,8 +41,8 @@
             android:hint="@string/name"
             android:id="@+id/name"
             android:layout_marginVertical="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textSize="20sp"/>
         <RadioGroup
             android:id="@+id/radioGroup"
@@ -51,12 +52,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Male"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Female"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
         </RadioGroup>
         <EditText
             android:layout_width="match_parent"
@@ -64,8 +67,8 @@
             android:hint="@string/email"
             android:id="@+id/email"
             android:layout_marginVertical="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textSize="20sp"/>
         <EditText
             android:layout_width="match_parent"
@@ -73,8 +76,8 @@
             android:hint="@string/pass"
             android:id="@+id/pass"
             android:layout_marginVertical="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textSize="20sp"/>
     </LinearLayout>
 

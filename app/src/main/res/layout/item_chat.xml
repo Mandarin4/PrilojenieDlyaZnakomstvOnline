@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,21 +7,52 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:id="@+id/container"
-        android:orientation="vertical">
+        android:padding="10dp"
+        android:id="@+id/container_oppo"
+        android:orientation="vertical"
+        android:visibility="gone">
         <TextView
-            android:paddingBottom="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Text"
-            android:id="@+id/message"/>
+            android:id="@+id/message_oppo"
+            android:background="@drawable/background_received_message"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginEnd="40dp"/>
         <TextView
-            android:paddingBottom="20dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Time"
-            android:id="@+id/time"/>
+            android:text="25.02.2020 12.45"
+            android:id="@+id/date_oppo"
+            android:textSize="12sp"/>
     </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/container_my"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:id="@+id/message_my"
+            android:background="@drawable/background_sent_message"
+            android:padding="10dp"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/white"
+            android:layout_marginStart="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25.02.2020 12.45"
+            android:id="@+id/date_my"
+            android:textSize="12sp"
+            android:gravity="end"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.SettingProfileActivity"
+    android:background="@drawable/background_app">
+    <LinearLayout
+        android:id="@+id/linerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imageBTNBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:onClick="backOnClick"
+            android:src="@drawable/ic_back" />
+        <TextView
+            android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Settings"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:onClick="settingOnClick"
+            android:layout_weight="0.1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_settings"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/profilExit"
+        android:layout_below="@+id/linerTitle"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:id="@+id/profileImage"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_gravity="center_horizontal"
+                    app:civ_circle_background_color="@color/white"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:gravity="left"
+                    android:text="@string/name1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:layout_marginVertical="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:gravity="left"
+                    android:text="@string/gender"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userSexText"
+                    android:layout_marginVertical="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/profilExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_app_exit_profile"
+        android:gravity="center"
+        android:onClick="logoutUser"
+        android:padding="10dp"
+        android:text="@string/SignOut"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

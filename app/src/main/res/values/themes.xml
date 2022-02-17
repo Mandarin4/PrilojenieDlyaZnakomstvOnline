@@ -20,4 +20,8 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:screenOrientation">portrait</item>
     </style>
+    <style name="Hyperlink">
+        <item name="android:textColor">#E91E63</item>
+        <item name="android:background">@drawable/hyperlink_underline</item>
+    </style>
 </resources>

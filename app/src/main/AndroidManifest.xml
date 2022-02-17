@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PrilojenieDlyaZnakomstvOnline">
         <activity
+            android:name=".Users.Pass_Reset_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Users.SettingProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/SplashTheme">
@@ -38,7 +44,7 @@
             android:exported="false" />
         <activity
             android:name=".Users.ChooselLoginOrRegistrationActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

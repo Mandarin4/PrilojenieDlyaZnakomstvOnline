@@ -39,14 +39,17 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+import io.paperdb.Paper;
+
 public class SettingsActivity extends AppCompatActivity {
 
     private EditText nameField, phoneField;
 
-    private TextView back, confirm;
-    private TextView imageFon;
+    private TextView  confirm;
 
-    private ImageView profileImage;
+
+    private CircleImageView profileImage;
 
     private FirebaseAuth mAuth;
     private DatabaseReference userDatabase;
@@ -63,10 +66,8 @@ public class SettingsActivity extends AppCompatActivity {
         nameField = (EditText) findViewById(R.id.name);
         phoneField = (EditText) findViewById(R.id.phone);
 
-        profileImage = (ImageView) findViewById(R.id.profileImage);
-        imageFon = (TextView) findViewById(R.id.imageFon);
+        profileImage =  findViewById(R.id.profileImage);
 
-        back = (TextView) findViewById(R.id.back);
         confirm = (TextView) findViewById(R.id.confirm);
 
         mAuth = FirebaseAuth.getInstance();
@@ -92,18 +93,12 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 confirm.setClickable(false);
-                Toast.makeText(SettingsActivity.this, "new connections", Toast.LENGTH_LONG).show();
+                Toast.makeText(SettingsActivity.this, getResources().getString(R.string.save), Toast.LENGTH_LONG).show();
                 saveUserInformation();
                 confirm.setClickable(true);
             }
         });
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
     }
 
     private void getUserInfo() {
@@ -127,7 +122,6 @@ public class SettingsActivity extends AppCompatActivity {
                     Glide.with(SettingsActivity.this).clear(profileImage);
 
                     if (map.get("profileImageUri") != null){
-                        imageFon.setVisibility(View.GONE);
                         profileImageUri = map.get("profileImageUri").toString();
                         switch (profileImageUri){
                             case "defaultFemale":
@@ -202,6 +196,11 @@ public class SettingsActivity extends AppCompatActivity {
             finish();
 
         }
+    }
+
+
+    public void backOnClick(View view) {
+        finish();
     }
 
     @Override

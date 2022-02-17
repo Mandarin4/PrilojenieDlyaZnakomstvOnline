@@ -82,6 +82,7 @@ public class LoginActivity extends AppCompatActivity {
     public void signInBTNOnClick(View view){
         view.setClickable(false);
         loginUser();
+        view.setClickable(true);
     }
 
     private void loginUser() {
@@ -108,20 +109,24 @@ public class LoginActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
 
-                        loadbar.dismiss();
-                        Toast.makeText(LoginActivity.this, getResources().getString(R.string.sign_in_True), Toast.LENGTH_SHORT).show();
-                        if(checkBoxRememberMe.isChecked()){
-                            Paper.book().write(Prevalent.UserEmailKey, email);
-                            Paper.book().write(Prevalent.UserPasswordKey, pass);
-                        }
-                        Intent homeIntent = new Intent(LoginActivity.this, MainActivity.class);
-                        startActivity(homeIntent);
-                        finish();
+                    loadbar.dismiss();
+                    Toast.makeText(LoginActivity.this, getResources().getString(R.string.sign_in_True), Toast.LENGTH_SHORT).show();
+                    if(checkBoxRememberMe.isChecked()){
+                        Paper.book().write(Prevalent.UserEmailKey, email);
+                        Paper.book().write(Prevalent.UserPasswordKey, pass);
+                    }
+                    Intent homeIntent = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(homeIntent);
+                    finish();
                 }else{ loadbar.dismiss();
                     Toast.makeText(LoginActivity.this, getResources().getString(R.string.sign_in_ERROR), Toast.LENGTH_SHORT).show();
                 }
             }
         });
+    }
+    public void Pass_Reset_ActivityBTNOnClick(View view){
+        Intent backintent = new Intent(LoginActivity.this, Pass_Reset_Activity.class);
+        startActivity(backintent);
     }
 
     // Системная кнопка назад

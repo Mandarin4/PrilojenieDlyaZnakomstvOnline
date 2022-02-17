@@ -8,20 +8,28 @@
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/background_received_message.xml" value="0.155" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/background_sent_message.xml" value="0.155" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/btn_app.xml" value="0.1525" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/btn_app_exit_profile.xml" value="0.155" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/hyperlink_underline.xml" value="0.155" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/ic_settings.xml" value="0.153" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/line_image.xml" value="0.155" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/round_back_light_10.xml" value="0.155" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/round_back_theme_1000.xml" value="0.155" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/drawable/splash_screen.xml" value="0.155" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_chat.xml" value="0.2" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_choosel_login_or_registration.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_mathes.xml" value="0.25" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_pass_reset.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_setting_profile.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/activity_settings.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/item.xml" value="0.2" />
-        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/item_chat.xml" value="0.25" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/item_chat.xml" value="0.264" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/item_container_received_message.xml" value="0.4" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/item_container_sent_message.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/item_mathes.xml" value="0.25" />
+        <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/layout/message_adapter_layout.xml" value="0.25" />
         <entry key="..\:/DiscD/AndroidStudioProjects/Playmarket/PrilojenieDlyaZnakomstvOnline/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1525" />
       </map>
     </option>
